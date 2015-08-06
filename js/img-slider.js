@@ -1,5 +1,5 @@
 $(document).ready(
-  $('.image-box').click(function () {
-    $(this).children('.text').toggleClass( 'collapse' );
+  $('.img-slider').click(function () {
+    $(this).children('.caption').toggleClass( 'collapse' );
   })
 )
