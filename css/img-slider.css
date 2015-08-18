@@ -1,4 +1,4 @@
-.img-slider {
+.ics-slider {
   position: relative;
   display: inline-block;
   -webkit-box-shadow: inset 0 0 10px #000000;
@@ -16,7 +16,7 @@
   background-size: contain;
 }
 
-.caption {
+.ics-caption {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -34,7 +34,7 @@
   height: 85%;
 }
 
-.img-slider small {
+.ics-slider small {
   font-size: 16px;
   height: inherit;
   position: absolute;
@@ -42,11 +42,11 @@
   overflow: scroll;
 }
 
-.proj-name {
+.ics-proj-name {
   font-weight: bold;
 }
 
-.collapse {
+.ics-collapse {
   height: 1.8em;
   overflow: hidden;
 }

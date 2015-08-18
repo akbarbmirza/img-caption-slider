@@ -4,12 +4,28 @@
   <meta charset="UTF-8">
   <title>Image Caption Slider Demo</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      width: 80%;
+      margin: 0 auto;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.1em;
+      border: 1px dashed black;
+    }
+
+    body * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  </style>
   <link rel="stylesheet" href="css/img-slider.css">
 </head>
 <body>
   <h1>Image Box Demo</h1>
-  <div class="img-slider">
+  <div class="slider">
     <p class="caption">
       <span class="proj-name">
         Project One
@@ -22,5 +38,12 @@
   </div>
   <script src="js/jquery-2.1.4.js"></script>
   <script src="js/img-slider.js"></script>
+  <script type="text/javascript">
+    imageSlider.init({
+      slider: '.slider',
+      caption: '.caption',
+      projName: '.proj-name'
+    });
+  </script>
 </body>
 </html>
