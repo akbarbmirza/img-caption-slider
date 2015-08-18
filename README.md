@@ -4,6 +4,8 @@ Image Slider is a simple jQuery plug-in to let you add a nice slide-over title
 and caption for images on your website. It's pretty light-weight and easy to
 use.
 
+**[DEMO](http://akbarbmirza.github.io/img-slider-box/)**
+
 ## Requirements
 + [jQuery (2.1.4)]()
 + [Normalize.css (3.0.2)](https://necolas.github.io/normalize.css/)
@@ -44,4 +46,4 @@ you used).
       });
     </script>
 
-You now have your very own image-slider! Check out the [demo on CodePen](http://codepen.io/anon/pen/OVYBNx).
+You now have your very own image-slider! Check out the [demo on GitHub](http://akbarbmirza.github.io/img-slider-box/).
