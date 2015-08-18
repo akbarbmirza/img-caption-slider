@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/img-slider.css">
+</head>
+<style>
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+</style>
+<body>
+  <h1>Image Box Demo</h1>
+  <div class="slider">
+    <p class="caption">
+      <span class="title">Hello, World</span>
+      <br>
+      <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, aut quia eveniet qui quisquam perferendis, dicta aliquam blanditiis incidunt magni numquam unde autem illum voluptatibus sunt tempore. Cupiditate, est? Quasi.</small>
+    </p>
+  </div>
+  <div class="slider">
+    <p class="caption">
+      <span class="title">Hello, World</span>
+      <br>
+      <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, aut quia eveniet qui quisquam perferendis, dicta aliquam blanditiis incidunt magni numquam unde autem illum voluptatibus sunt tempore. Cupiditate, est? Quasi.</small>
+    </p>
+  </div>
+  <div class="slider">
+    <p class="caption">
+      <span class="title">Hello, World</span>
+      <br>
+      <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, aut quia eveniet qui quisquam perferendis, dicta aliquam blanditiis incidunt magni numquam unde autem illum voluptatibus sunt tempore. Cupiditate, est? Quasi.</small>
+    </p>
+  </div>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/img-slider.js"></script>
+  <script type="text/javascript">
+    imageSlider.init({
+      slider: '.slider',
+      caption: '.caption',
+      title: '.title'
+    });
+  </script>
+</body>
+</html>
