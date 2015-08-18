@@ -1,15 +1,15 @@
 var imageSlider = {};
 
 imageSlider.init = function ( options ) {
-  var slider = $(options.slider);
+  var slider = $( options.slider );
   var caption = options.caption;
-  var projName = options.projName;
+  var title = options.title;
 
-  slider.addClass('ics-slider');
-  $(caption).addClass('ics-caption');
-  $(projName).addClass('ics-proj-name');
+  slider.addClass( 'ics-slider' );
+  $( caption ).addClass( 'ics-caption' );
+  $( title ).addClass( 'ics-title' );
 
   slider.click(function () {
-    $(this).children(caption).toggleClass( 'ics-collapse' );
+    $( this ).children( caption ).toggleClass( 'ics-collapse' );
   })
 };
