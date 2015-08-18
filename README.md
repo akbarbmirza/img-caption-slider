@@ -46,4 +46,4 @@ you used).
       });
     </script>
 
-You now have your very own image-slider! Check out the [demo on GitHub](http://codepen.io/anon/pen/OVYBNx).
+You now have your very own image-slider! Check out the [demo on CodePen](http://codepen.io/anon/pen/OVYBNx).
