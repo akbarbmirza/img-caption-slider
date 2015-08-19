@@ -42,7 +42,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.ics-slider .desc {
+.ics-desc {
   display: block;
   height: inherit;
   overflow: scroll;
