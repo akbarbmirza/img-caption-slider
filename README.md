@@ -17,17 +17,19 @@ use.
 The basic set-up of image box requires an element to hold the image-box, with
 the following parameters. You may use any selector or class that you want since
 you'll be initializing the plug-in in a script tag. The element to hold the
-image-box requires a few things, a `<p>` tag with a nested `<span>` to hold the
-title for the image and a `<small>` tag to hold the caption.
+image-box requires a few things, a container for the slider and a nested
+container for the caption. Inside the caption container, we'll have a heading
+element for your title and a `<p>` for your description.
 
 ### Example
 
     <div class="slider">
-      <p class="caption">
-        <span class="title">Hello, World</span>
-        <br>
-        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, aut quia eveniet qui quisquam perferendis, dicta aliquam blanditiis incidunt magni numquam unde autem illum voluptatibus sunt tempore. Cupiditate, est? Quasi.</small>
-      </p>
+      <div class="caption">
+        <h3 class="title">Hello, World</h3>
+        <p class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odio autem, est quasi odit voluptas, hic exercitationem architecto dolore quia sapiente ducimus fuga ea, modi in blanditiis pariatur eum maxime.
+        </p>
+      </div>
     </div>
 
 *Note: your class names are not required to be the same*
